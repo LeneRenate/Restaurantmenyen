@@ -1,0 +1,77 @@
+/*
+Category: 
+font-family: "Poiret One", sans-serif;
+text-transform: uppercase;
+*/
+
+/* 
+    <div className={styles.menuContainer}>
+      {kategorier.map((kategori) => (
+        <section key={kategori} className={styles[kategori.toLowerCase()]}>
+          <h2>{kategori}</h2>
+          {dishes
+            .filter((dish) => dish.kategori === kategori)
+            .map((dish, i) => (
+              <Dish key={i} {...dish} />
+            ))}
+        </section>
+      ))}
+    </div>
+*/
+
+.menuContainer {
+  width: 95%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categoryCard {
+  width: 32%;
+  background-image: url("../assets/paper_texture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #85c47f;
+  border-radius: 5px;
+}
+
+.forrett {
+  order: -1;
+}
+
+/* .hovedrett {
+} */
+
+/* .dessert {
+} */
+
+h2 {
+  font-family: "Poiret One", sans-serif;
+  text-transform: uppercase;
+  /* text-decoration: underline 1px #85c47f; */
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #85c47f;
+  margin: 0 auto;
+}
+
+.hovedrett h2::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: #85c47f;
+  margin: 0 auto;
+}

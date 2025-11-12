@@ -1,0 +1,52 @@
+/**
+    <article className={styles.eachDish}>
+      <div className={styles.namePrice}>
+        <h3 className={styles.dishName}>{tittel}</h3>
+        <p className={styles.dishPrice}>{pris}</p>
+      </div>
+      <p className={styles.dishIngredients}>{ingredienser}</p>
+      <p className={styles.dishCategory}>{kategori}</p>
+    </article>
+**/
+
+.eachDish {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px dashed hotpink; */
+  padding: 20px 10px 25px;
+  color: black;
+  border-bottom: 1px dotted #2c2b2b;
+}
+
+.eachDish:last-child {
+  border: none;
+  padding: 20px 10px;
+}
+
+.namePrice {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dishName {
+  font-family: "Poiret One", sans-serif;
+  font-size: 1.3rem;
+}
+
+.dishPrice {
+  font-family: "Birthstone", cursive;
+  font-size: 1.35rem;
+}
+
+.dishIngredients {
+  font-family: alumni sans pinstripe, sans-serif;
+  font-family: "Poiret One", sans-serif;
+  font-style: italic;
+}
+
+.dishCategory {
+  display: none;
+}
