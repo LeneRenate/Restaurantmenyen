@@ -6,10 +6,16 @@
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 6em;
   line-height: 1.1;
   text-align: center;
-  margin: 1rem auto 2rem;
+  margin: 0.5rem auto 2rem;
   font-family: "Cookie", cursive;
   text-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    margin-top: 2rem;
+  }
 }

@@ -18,9 +18,36 @@ body {
   width: 100%;
   background-image: url("./assets/pale_table_with_leaves.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right top;
   background-color: bisque;
 
   color: #2c2b2b;
+}
+
+@media screen and (min-width: 300px) {
+  body {
+    background-size: 300svw 100svh;
+    background-position: 80% 0;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-size: 160svw 100svh;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-size: 140svw 100svh;
+    background-attachment: fixed;
+    background-position: right top;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-position: right top;
+  }
 }
