@@ -53,9 +53,11 @@ text-transform: uppercase;
 } */
 
 h2 {
-  font-family: "Poiret One", sans-serif;
-  text-transform: uppercase;
+  /* font-family: "Poiret One", sans-serif;
+  text-transform: uppercase; */
   /* text-decoration: underline 1px #85c47f; */
+  font-family: calibri;
+  color: blue;
 }
 
 h2::after {
