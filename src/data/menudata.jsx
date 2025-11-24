@@ -36,7 +36,7 @@ export const menu = [
   },
   {
     id: 6,
-    tittel: "Brownie med Is",
+    tittel: "Brownie m/Is",
     pris: "89 kr",
     ingredienser: "Brownie, vaniljeis, sjokoladesaus",
     kategori: "Dessert",
@@ -50,21 +50,21 @@ export const menu = [
   },
   {
     id: 8,
-    tittel: "Pannekaker med Syltetøy",
+    tittel: "Pannekaker m/Syltetøy",
     pris: "99 kr",
     ingredienser: "Pannekaker, jordbærsyltetøy, sukker",
     kategori: "Dessert",
   },
   {
     id: 9,
-    tittel: "Reker med Sitron",
+    tittel: "Reker m/Sitron",
     pris: "149 kr",
     ingredienser: "Reker, sitron, dill, brød",
     kategori: "Forrett",
   },
   {
     id: 10,
-    tittel: "Entrecôte med Grønnsaker",
+    tittel: "Entrecôte m/Grønnsaker",
     pris: "289 kr",
     ingredienser: "Entrecôte, asparges, poteter, peppersaus",
     kategori: "Hovedrett",
